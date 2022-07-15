@@ -61,7 +61,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: calc(30 / 16);
   letter-spacing: 0.04em;
 }
 
@@ -877,7 +877,7 @@ p {
 
 .header-nav__link {
   font-weight: 700;
-  line-height: 1.3125;
+  line-height: calc(21 / 16);
   color: var(--whiteElements);
   -webkit-transition: color 250ms var(--cubic);
   transition: color 250ms var(--cubic);
@@ -984,7 +984,7 @@ p {
     color: var(--accentColor);
     border-radius: 22px;
     font-weight: 700;
-    line-height: 1.3125;
+    line-height: calc(21 / 16);
   }
 }
 
@@ -1135,7 +1135,7 @@ body.modal-open {
   border-radius: 22px;
   font-size: 16px;
   font-weight: 700;
-  line-height: 1.3125;
+  line-height: calc(21 / 16);
   -webkit-transition: background-color 250ms var(--cubic);
   transition: background-color 250ms var(--cubic);
 }
