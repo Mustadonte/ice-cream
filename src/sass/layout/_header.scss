@@ -278,7 +278,7 @@ body.modal-open {
 .mobile-menu__link {
   font-weight: 700;
   font-size: 14px;
-  line-height: (18 / 14);
+  line-height: 1.28;
   color: var(--whiteElements);
   transition: color 250ms var(--cubic);
   &:hover {
