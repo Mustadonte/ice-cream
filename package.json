@@ -6,7 +6,7 @@
   "homepage": "https://Mustadonte.github.io/ice-cream/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-project-group-11/"
+    "build": "parcel build src/*.html --public-url /ice-cream/"
   },
   "repository": {
     "type": "git",
